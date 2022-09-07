@@ -39,9 +39,8 @@ display: flex;
 
 .barre{
 position: absolute;
-width: 1530px;
-height: 0px;
-left: 0px;
+width: 1515px;
+height: 0;
 top: 137px;
 border: 1px solid #000000;
 }
@@ -148,35 +147,47 @@ padding-top: 1%;
 /*produit*/
 
 .produit{
-display: flow-root;
+position: relative;
 }
 .produit h1{
-font-size: 64px;
-
+font-size: 70px;
 }
 
 .rectangle1{
-width: 900px;
-height: 554px;
+position: absolute;
+width: 682px;
+height: 550px;
 background: #1D1D1B;
-margin: 10%;
+margin: -10% 0% 0% 50%;
 }
 
 .rectangle2{
-width: 900px;
-height: 447px;
+width: 1168px;
+height: 747px;
 background: #D9D9D9;
+margin: 15% 0% 0% 18%;
 }
 
-
-
-p{
-width: 500px;
-height: 100px;
+.produit p{
+width: 600px;
 font-family: 'Montserrat';
 font-style: normal;
-font-size: 24px;
+font-size: 20px;
 align-items: center;
 text-align: center;
+right: 10%;
 color: #000000;
 }
+
+.text1{
+display: flex;
+}
+
+.text1 p{
+margin-left: 30%;
+margin-top: 40%;
+}
+.text1 h1{
+margin-top: 40%;
+}
+
