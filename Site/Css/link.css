@@ -6,6 +6,8 @@ margin: 0;
 font-family: 'Montserrat';
 }
 
+/*navigation*/
+
 .logo{
 left: 34px;
 top: 29px;
@@ -43,6 +45,9 @@ left: 0px;
 top: 137px;
 border: 1px solid #000000;
 }
+/*navigation fin*/
+
+/*home*/
 
 .lesH{
 font-style: normal;
@@ -58,4 +63,117 @@ font-size: 80px;
 H2{
 font-size: 40px;
 padding-top: 1%;
+}
+
+/*bott1*/
+
+.text-box {
+	margin-left: 4vw;
+	margin-top: 4vh;
+}
+
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 70px;
+	margin-left: 30px ;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position: relative;
+	left: 50%;
+
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+    background-color: #000;
+    color: #fff;
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-white::after {
+    background-color: #000;
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+/*bott fin*/
+
+/*home fin*/
+
+/*produit*/
+
+
+.rectangle2{
+width: 1100px;
+height: 947px;
+left: 114px;
+top: 1367px;
+background: #D9D9D9;
+}
+
+.rectangle1{
+width: 1000px;
+height: 754px;
+background: #1D1D1B;
+}
+
+p{
+width: 500px;
+height: 100px;
+position: absolute;
+width: 700px;
+height: 157px;
+font-family: 'Montserrat';
+font-style: normal;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
 }
