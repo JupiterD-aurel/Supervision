@@ -3,6 +3,7 @@
 body{
 padding: 0;
 margin: 0;
+font-family: 'Montserrat';
 }
 
 .logo{
@@ -27,8 +28,34 @@ top: 29px;
 }
 .home a{
 padding-left: 30%;
+
 }
 
 nav{
 display: flex;
+}
+
+.barre{
+position: absolute;
+width: 1530px;
+height: 0px;
+left: 0px;
+top: 137px;
+border: 1px solid #000000;
+}
+
+.lesH{
+font-style: normal;
+line-height: 5px;
+align-items: center;
+padding: 5% 0 1% 7%;
+}
+
+h1{
+font-size: 80px;
+}
+
+H2{
+font-size: 40px;
+padding-top: 1%;
 }
