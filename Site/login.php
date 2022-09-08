@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Supervisor: Connexion</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-    <link rel="stylesheet" href="css/main.css">
 </head>
 
 
@@ -43,18 +42,20 @@ if(isset($_POST['submit'])){
 
 <link rel="stylesheet" href="css/login.css">
 <body>
-    <form action="" method="POST">
-        <div class="login-box">
-            <h1>Connexion</h1>
-            <div class="textbox">
-                <input type="text" placeholder="E-Mail" name="username" value="" autocomplete="off">
+    <div id="boxes">
+        <form action="" method="POST">
+            <div class="login-box">
+                <h1>Connexion</h1>
+                <div class="textbox">
+                    <input type="text" placeholder="E-Mail" name="username" value="" autocomplete="off">
+                </div>
+                <div class="textbox">
+                    <input type="password" placeholder="Mot de passe" name="password" value="" autocomplete="off">
+                </div>
+                <input class="button" type="submit" name="submit" value="Se connecter">
+                <p class="errormessage"><?php echo $error?></p>
+                <p>Vous n'avez pas de compte sur notre site ? <a href="register.php">Créer un compte !</a></p>
             </div>
-            <div class="textbox">
-                <input type="password" placeholder="Mot de passe" name="password" value="" autocomplete="off">
-            </div>
-            <input class="button" type="submit" name="submit" value="Se connecter">
-            <p class="errormessage"><?php echo $error?></p>
-            <a href=index.html id="back">Revenir sur le site</a>
-        </div>
-    </form>
+        </form>
+    </div>
 </body>
