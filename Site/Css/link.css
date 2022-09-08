@@ -17,7 +17,7 @@ margin: 1% 0 0 1%;
 	position: absolute;
 	width: 10%;
 	height: 23%;
-	left: 65%;
+	left: 55%;
 	top: -2.5rem;
 	font-family: 'Montserrat';
 	font-style: normal;
@@ -29,7 +29,7 @@ margin: 1% 0 0 1%;
 
 }
 .home a{
-padding-left: 40%;
+padding-left: 20%;
 
 }
 
@@ -71,11 +71,16 @@ padding-top: 1%;
 	margin-top: 4vh;
 }
 
+.btn{
+white-space: nowrap;
+
+}
+
 .btn:link,
 .btn:visited {
     text-transform: uppercase;
     text-decoration: none;
-    padding: 15px 70px;
+    padding: 15px 20px;
 	margin-left: 30px ;
     display: inline-block;
     border-radius: 100px;
