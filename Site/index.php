@@ -27,10 +27,10 @@
 				Suspendisse metus ipsum, egestas at varius</p>
 		</div>
 		<div class="effet">
-		<div class="accueil-image">
-			<img src="image/vivimobile.svg" alt="mascotte vivi">
+			<div class="accueil-image">
+				<img src="image/vivimobile.svg" alt="mascotte vivi">
+			</div>
 		</div>
-<div class="elipse"></div></div>
 
 	</div>
 		<div class="accueil-bottom">
