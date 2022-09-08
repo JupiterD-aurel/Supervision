@@ -39,15 +39,7 @@ text-decoration: none;
     transform: scale(1.1);
 }
 
-.lgnbutton{
-    color: white;
-    background-color: black;
-    background-clip: content-box;
-    height: 50px;
-    width: 1200px;
-    border-radius: 10%;
-      
-}
+
 
 #lgnbutton {
     background-color: black;
@@ -102,6 +94,7 @@ line-height: 44px;
 align-items: center;
 color: #2C60AB;
 margin-bottom: 5%;
+
 }
 
 .accueil-text h1{
@@ -115,6 +108,8 @@ line-height: 78px;
 align-items: center;
 color: #000000;
 margin-bottom: 5%;
+
+
 }
 
 .accueil-text p{
@@ -129,6 +124,7 @@ line-height: 29px;
 display: flex;
 align-items: center;
 text-align: center;
+
 }
 
 
@@ -136,10 +132,7 @@ text-align: center;
 width: 536px;
 height: 488px;
 }
-.accueil-bottom{
 
-
-}
 
 /*accueil fin*/
 
