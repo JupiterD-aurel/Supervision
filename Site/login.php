@@ -8,7 +8,7 @@
 </head>
 
 
-<?php include('header.html')?>
+<?php include('header.php')?>
 
 <?php 
 $error = "";
@@ -18,7 +18,7 @@ if(isset($_SESSION['username']))
 {
     if($_SESSION['username'] === "admin")
     {
-        header("Location: admin.php"); 
+        header("Location: client.php"); 
     }
 }
 
@@ -29,7 +29,7 @@ if(isset($_POST['submit'])){
     {
         $error = "";
         $_SESSION["username"] = $username;
-        header("Location: admin.php");
+        header("Location: client.php");
     }
     else
     {

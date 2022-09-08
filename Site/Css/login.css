@@ -43,6 +43,7 @@ form {
     border: none;
     outline: none;
     background: none;
+    width: 90%;
     font-size: 18px;
     float: left;
     margin: 0 10px;
@@ -79,6 +80,9 @@ form {
     color: green;
     text-align: center;
     font-size: 2rem;
+    background-color: rgba(0, 214, 36, 0.15);
+    border-radius: 6px;
+    margin-bottom: 10px;
 }
 
 

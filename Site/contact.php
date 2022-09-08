@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/main.css">
 
 </head>
-<?php include('header.html')?>
+<?php include('header.php')?>
 
 <body>
 <?php

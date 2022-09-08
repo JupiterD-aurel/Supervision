@@ -7,7 +7,7 @@
 	<title>Supervisor: Histoire</title>
 </head>
 
-<?php include('header.html')?>
+<?php include('header.php')?>
 
 <body>
 

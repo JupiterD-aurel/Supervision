@@ -7,7 +7,7 @@
 	<title>Supervisor: Produit</title>
 </head>
 
-<?php include('header.html')?>
+<?php include('header.php')?>
 
 
 <body>	
