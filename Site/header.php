@@ -1,4 +1,7 @@
 
+<?php
+session_start();
+?>
 <link rel="stylesheet" href="css/header.css">
 <link rel="icon" href="image/favicon.png">
 
@@ -11,7 +14,16 @@
             <a href="produit.php"><strong>PRODUIT</strong></a>
             <a href="histoire.php"><strong>HISTOIRE</strong></a>
             <a href="contact.php"><strong>CONTACT</strong></a>
-            <a href="login.php" id="lgnbutton"><strong>SE CONNECTER</strong></a>   
+            <?php
+            if(isset($_SESSION['username']))
+            {
+                echo "<a href='client.php' id='lgnbutton'><strong>Espace Client</strong></a>";
+            }
+            else
+            {
+                echo "<a href='login.php' id='lgnbutton'><strong>SE CONNECTER</strong></a>";
+            }
+            ?>  
                 
         </div>
     </div>

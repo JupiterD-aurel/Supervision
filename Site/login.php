@@ -13,7 +13,12 @@
 <?php 
 $error = "";
 $success = "";
-session_start();
+$name = "Nathan";
+$lastname = "Levasseur";
+
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+}
 if(isset($_SESSION['username']))
 {
     if($_SESSION['username'] === "admin")
@@ -29,6 +34,8 @@ if(isset($_POST['submit'])){
     {
         $error = "";
         $_SESSION["username"] = $username;
+        $_SESSION["name"] = $name;
+        $_SESSION["lastname"] = $lastname;
         header("Location: client.php");
     }
     else
