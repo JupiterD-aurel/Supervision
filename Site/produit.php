@@ -12,7 +12,6 @@
 
 <body>	
 
-
 <div class="produit">
 	<div class="rectangle1"></div>
 	<div class="rectangle2">
