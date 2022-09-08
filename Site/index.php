@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/link.css">
     <link rel="stylesheet" href="css/header.css">
-	<title>S.supervisor</title>
+	<title>S-supervisor</title>
 </head>
 <body>
 	<nav>
