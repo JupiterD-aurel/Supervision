@@ -4,12 +4,12 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link rel="stylesheet" href="css/link.css"> 
-	<title>S-supervisor</title>
+	<title>Supervisor: Histoire</title>
 </head>
 
-<body>
-
 <?php include('header.html')?>
+
+<body>
 
 <div class="histoire">
 	<div class="part1">
