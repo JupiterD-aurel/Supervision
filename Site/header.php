@@ -1,6 +1,9 @@
 
 <?php
-session_start();
+$status = session_status();
+if($status == PHP_SESSION_NONE){
+    session_start();
+}
 ?>
 <link rel="stylesheet" href="css/header.css">
 <link rel="icon" href="image/favicon.png">
@@ -17,7 +20,7 @@ session_start();
             <?php
             if(isset($_SESSION['username']))
             {
-                echo "<a href='client.php' id='lgnbutton'><strong>Espace Client</strong></a>";
+                echo "<a href='client.php' id='lgnbutton'><strong>ESPACE CLIENT</strong></a>";
             }
             else
             {
