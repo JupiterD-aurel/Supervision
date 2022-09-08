@@ -84,12 +84,31 @@ border: 1px solid #000000;
 
 #accueil{
 display: flex;
+margin: 5%;
 }
 
 .accueil-text{
 width: 55%;
+margin-left: 5%;
+
 
 }
+
+.accueil-text p{
+width: 700px;
+height: 157px;
+left: 128px;
+top: 473px;
+font-family: 'Montserrat';
+font-style: normal;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center;
+
+}
+
 
 .accueil-image img{
 width: 436px;
