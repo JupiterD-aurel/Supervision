@@ -91,6 +91,32 @@ margin: 5%;
 width: 55%;
 margin-left: 5%;
 
+}
+
+.accueil-text h3{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 44px;
+align-items: center;
+color: #2C60AB;
+margin-bottom: 5%;
+
+}
+
+.accueil-text h1{
+width: 727px;
+height: 138px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 64px;
+line-height: 78px;
+align-items: center;
+color: #000000;
+margin-bottom: 5%;
+
 
 }
 
@@ -111,8 +137,8 @@ text-align: center;
 
 
 .accueil-image img{
-width: 436px;
-height: 388px;
+width: 536px;
+height: 488px;
 }
 
 
