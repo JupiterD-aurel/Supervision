@@ -7,21 +7,8 @@
 	<title>S-supervisor</title>
 </head>
 
-<nav>
-    <div class="logo">
-            <a href="index.php"><img src="image/logo.png" alt="logo-s.suppervisor" width="100px" height="50px"></div></a>
+<?php include('header.html')?>
 
-    <div class="home">
-            <a href="#"><strong>PRODUIT</strong></a>
-            <a href="#"><strong>HISTOIRE</strong></a>
-            <a href="#"><strong>CONTACT</strong></a>
-            <a href="login.php" id="lgnbutton"><strong>SE CONNECTER</strong></a>  
-                
-        </div>
-    </div>
-</nav>
-
-<div class="barre"></div>
 
 <body>
 <div class="abonnement">

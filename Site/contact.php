@@ -9,11 +9,9 @@
     <link rel="stylesheet" href="css/main.css">
 
 </head>
-
 <?php include('header.html')?>
 
 <body>
-<include src="login.php"></include>
 <?php
 $mess = "";
 $succmess = "";

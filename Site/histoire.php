@@ -9,35 +9,19 @@
 
 <body>
 
-<nav>
-    <div class="logo">
-            <a href="index.php"><img src="image/logo.png" alt="logo-s.suppervisor" width="100px" height="50px"></div></a>
+<?php include('header.html')?>
 
-    <div class="home">
-            <a href="#"><strong>PRODUIT</strong></a>
-            <a href="#"><strong>HISTOIRE</strong></a>
-            <a href="#"><strong>CONTACT</strong></a>
-            <a href="login.php" id="lgnbutton"><strong>SE CONNECTER</strong></a>  
-                
-        </div>
-    </div>
-</nav>
-
-<div class="barre"></div>
-
-<div class="barre1"></div>
-
-	<div class="histoire">
-		<div class="part1">
-			<h1>Histoire.</h1>
-			<h2>Hi, ik ben Jasper</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a laoreet est. Fusce eleifend mattis urna. Suspendisse potenti. Sed vestibulum ligula vel metus semper, nec euismod sem aliquam. Maecenas bibendum odio leo, nec mattis ipsum accumsan sit amet. Suspendisse metus ipsum, egestas at varius</p>
-		</div>
-
-		<div class="part2">
-
-		</div>
+<div class="histoire">
+	<div class="part1">
+		<h1>Histoire.</h1>
+		<h2>Hi, ik ben Jasper</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a laoreet est. Fusce eleifend mattis urna. Suspendisse potenti. Sed vestibulum ligula vel metus semper, nec euismod sem aliquam. Maecenas bibendum odio leo, nec mattis ipsum accumsan sit amet. Suspendisse metus ipsum, egestas at varius</p>
 	</div>
+
+	<div class="part2">
+
+	</div>
+</div>
 
 	
 
