@@ -3,12 +3,25 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/link.css">
+	<link rel="stylesheet" href="css/link.css"> 
 	<title>S-supervisor</title>
 </head>
 
-<?php include('header.html')?>
+<nav>
+    <div class="logo">
+            <a href="index.php"><img src="image/logo.png" alt="logo-s.suppervisor" width="100px" height="50px"></div></a>
+
+    <div class="home">
+            <a href="#"><strong>PRODUIT</strong></a>
+            <a href="#"><strong>HISTOIRE</strong></a>
+            <a href="#"><strong>CONTACT</strong></a>
+            <a href="login.php" id="lgnbutton"><strong>SE CONNECTER</strong></a>  
+                
+        </div>
+    </div>
+</nav>
+
+<div class="barre"></div>
 
 <body>
 
