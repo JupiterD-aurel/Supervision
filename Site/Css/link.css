@@ -76,7 +76,7 @@ border: 1px solid #000000;
 
 #accueil{
 display: flex;
-margin: 5%;
+margin: 2% 5% 0 5%;
 }
 
 .accueil-text{
@@ -132,7 +132,12 @@ text-align: center;
 width: 536px;
 height: 488px;
 }
+<<<<<<< Updated upstream
 
+=======
+.accueil-bottom{
+margin-right: 50%;
+>>>>>>> Stashed changes
 
 /*accueil fin*/
 
