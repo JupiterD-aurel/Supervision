@@ -12,19 +12,16 @@
 
 <body>
 
-	<div class="lesH">
-		<h1>STATION SUPERVISOR</h1>
-		<h2>TRANSPARENCE</h2>
-		<h2>LOYAUTÉ</h2>
-		<h2>RESPECT</h2>
-		<h2>PROXIMIÉ</h2>
+	<div id="home">
+
+	<h1>GÉRER VOTRE ÉNERGIE AVEC VIVI</h1>
+
+	<h3>-Ce que l’on fait ? </h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a laoreet est. Fusce eleifend mattis urna. Suspendisse potenti. Sed vestibulum ligula vel metus semper, nec euismod sem aliquam. Maecenas bibendum odio leo, nec mattis ipsum accumsan sit amet. Suspendisse metus ipsum, egestas at varius</p>
+
+
 	</div>
-
-		<div class="text-box">
-			<a href="#" class="btn btn-white btn-animate">En savoir plus</a>
-			<a href="#" class="btn btn-white btn-animate">Contact</a>
-		</div>
-
+	
 <div class="produit">
 	<div class="rectangle1"></div>
 	<div class="rectangle2">
