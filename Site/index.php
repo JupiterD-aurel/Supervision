@@ -25,12 +25,13 @@
 
 <body>
 
+	<div id="accueil">
 
-	<h1>GÉRER VOTRE ÉNERGIE AVEC VIVI</h1>
+		<h1>GÉRER VOTRE ÉNERGIE AVEC VIVI</h1>
 
-	<h3>-Ce que l’on fait ? </h3>
-		<p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Curabitur a laoreet est. Fusce eleifend mattis urna. Suspendisse potenti. <br> Sed vestibulum ligula vel metus semper, nec euismod sem aliquam. Maecenas bibendum odio leo, nec mattis ipsum accumsan sit amet. Suspendisse metus ipsum, egestas at varius</p>
-
+		<h3>-Ce que l’on fait ? </h3>
+			<p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Curabitur a laoreet est. Fusce eleifend mattis urna. Suspendisse potenti. <br> Sed vestibulum ligula vel metus semper, nec euismod sem aliquam. Maecenas bibendum odio leo, nec mattis ipsum accumsan sit amet. Suspendisse metus ipsum, egestas at varius</p>
+	</div>
 	
 <div class="produit">
 	<div class="rectangle1"></div>
