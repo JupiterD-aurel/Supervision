@@ -30,7 +30,16 @@
 		<div class="accueil-image">
 			<img src="image/vivimobile.svg" alt="mascotte vivi">
 		</div>
+
 	</div>
+		<div class="accueil-bottom">
+
+			<div class="text-box">
+				<a href="#" class="btn btn-white btn-animate">Nos abonnement</a>
+				<a href="#" class="btn btn-white btn-animate">Contact</a>
+			</div>
+
+		</div>
 
 
 
