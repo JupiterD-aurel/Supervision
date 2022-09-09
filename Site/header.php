@@ -15,7 +15,7 @@ if($status == PHP_SESSION_NONE){
             <a href="index.php"><img src="image/logo.png" alt="logo-s.suppervisor" width="100px" height="50px"></div></a>
 
     <div class="home">
-            <a href="produit.php"><strong>SERVICE</strong></a>
+            <a href="service.php"><strong>SERVICE</strong></a>
             <a href="histoire.php"><strong>HISTOIRE</strong></a>
             <a href="contact.php"><strong>CONTACT</strong></a>
             <?php
