@@ -133,7 +133,6 @@ section{
     flex:1 1 45rem;
     padding:2rem;
     margin:2rem;
-    margin-bottom: 4rem;
 }
 
 .contact .row form .box{
@@ -144,7 +143,7 @@ section{
     border-bottom: 1px solid;
     text-transform: none;
     font-size: 1.7rem;
-    width:40%;
+    width:45rem;
 }
 
 button {
@@ -156,8 +155,13 @@ button {
 }
 
 .contact .row form .message{
-    height: 12rem;
+    height: 11rem;
     resize: none;
+}
+
+.content{
+display: flex;
+margin-left: 8%;
 }
 
 

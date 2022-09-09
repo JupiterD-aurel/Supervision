@@ -16,16 +16,15 @@
 	<div class="rectangle1"><img src="image/electric-car-power-charging.jpg" alt="charging"></div>
 	<div class="rectangle2">
 	<div class="text1">
-		<h1>Service.</h1>
 	</div>
-
-			<div class="text-box">
-				<a href="abonnement" class="btn btn-white btn-animate">En savoir plus</a>
-				<a href="contact.php" class="btn btn-white btn-animate">NOUS CONTACTER</a>
-			</div>
-
+			<div class="service">
+				<div class="text-box">
+					<a href="produit.php" class="btn btn-white btn-animate">En savoir plus</a>
+					<a href="contact.php" class="btn btn-white btn-animate">NOUS CONTACTER</a>
+			</div></div>
 </div>
 
+		<h1>Service.</h1>
 
 </div>
 

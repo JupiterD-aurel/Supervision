@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="stylesheet" href="css/main.css">
 
+
 </head>
 <?php include('header.php')?>
 
@@ -65,21 +66,34 @@ if(isset($_POST["submit"]))
 ?>
 
 
-<h1 class="heading"> Parler avec<span> nous</span> </h1>
+<h1 class="heading"> Parler avec<span> nous !</span> </h1>
+    <div class="content">
+    <div class="content2">
+            <img src="image/vivi.svg" alt="vivi-live" width="536px" height="488px">
 
-<section class="contact" id="contact">
-<p id="errormessage"><?php echo $mess?></p><p id="successmessage"><?php echo $succmess?></p>
-<div class="row">
-    <form action="" method="POST">
-        <input type="text" placeholder="Prénom" class="box" name="name">
-        <input type="text" placeholder="Nom" class="box" name="lastname">
-        <input type="email" placeholder="E-Mail" class="box" name="mail">
-        <input type="text" placeholder="Sujet" class="box" name="subject">
-        <textarea name="message" id="" cols="25" rows="10" class="box message" placeholder="Message"></textarea>
-        <button type="submit" name="submit" class="btn"> Envoyer <i class="fas fa-paper-plane"></i> </button>
-    </form>
 </div>
+    <div class="content1">
+<section class="contact" id="contact">
+
+            <p id="errormessage"><?php echo $mess?></p><p id="successmessage"><?php echo $succmess?></p>
+            <div class="row">
+                <form action="" method="POST">
+                    <input type="text" placeholder="Prénom" class="box" name="name">
+                    <input type="text" placeholder="Nom" class="box" name="lastname">
+                    <input type="email" placeholder="E-Mail" class="box" name="mail">
+                    <input type="text" placeholder="Sujet" class="box" name="subject">
+                    <textarea name="message" id="" cols="25" rows="10" class="box message" placeholder="Message"></textarea>
+                    <button type="submit" name="submit" class="btn"> Envoyer <i class="fas fa-paper-plane"></i> </button>
+                </form>
+            </div></div>
+
+</div>
+
+
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="script.js"></script>
-</body>
+
 </section>
+
+</body>

@@ -32,7 +32,7 @@ Plus de 30 sociétés sont déjà à nos côtés. Dans les années à venir, nou
 	</div>
 
 	<div class="part2">
-		<img src="image/charging-pistol-in-socket-at-charging-station.jpg" alt="charging" srcset="">
+		<img src="image/im 1.jpg" alt="charging" srcset="">
 	</div>
 </div>
 
