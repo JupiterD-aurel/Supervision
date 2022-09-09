@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Supervisor: Espace Client</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <script src="https://kit.fontawesome.com/ab98ebb4c8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/login.css"> 
 </head>
 <?php
@@ -26,7 +26,46 @@ else{
 
 <?php include('header.php')?>
 
-<h1 id="hellotitle">Bonjour <?php echo $username?>, bienvenue dans l'Espace Client</h1>
+<h1 id="hellotitle">Bonjour <span id="clientname"><?php echo $username?></span>, bienvenue dans l'Espace Client</h1>
+
+<div id="factures">
+    <h2>Vos factures</h2>
+    <div class="barrefacture"></div>
+    <div id=facturelist>
+        <div class="facture">
+            <img src="image/pdf.png">
+            <p class="dl">Août 2022</p>
+            <p class="dl">12,67€ TTC<p>
+            <p class="dl"><a href="#">Télécharger <i class="fa-solid fa-cloud-arrow-down"></i></a></p>
+        </div>
+        <div id="separation"></div>
+        <div class="facture">
+            <img src="image/pdf.png">
+            <p class="dl">Juillet 2022</p>
+            <p class="dl">15,27€ TTC<p>
+            <p class="dl"><a href="#">Télécharger <i class="fa-solid fa-cloud-arrow-down"></i></a></p>
+        </div>
+        <div id="separation"></div>
+        <div class="facture">
+            <img src="image/pdf.png">
+            <p class="dl">Juin 2022</p>
+            <p class="dl">10,59€ TTC<p>
+            <p class="dl"><a href="#">Télécharger <i class="fa-solid fa-cloud-arrow-down"></i></a></p>
+        </div>
+        <div id="separation"></div>
+        <div class="facture">
+            <img src="image/pdf.png">
+            <p class="dl">Mai 2022</p>
+            <p class="dl">18,21€ TTC<p>
+            <p class="dl"><a href="#">Télécharger <i class="fa-solid fa-cloud-arrow-down"></i></a></p>
+        </div>
+        
+    </div>
+</div>
+
+
+
+
 <div id=logoutbutton>
     <a href="logout.php" id="logout">Se déconnecter</a>
 </div>
