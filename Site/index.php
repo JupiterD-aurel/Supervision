@@ -35,6 +35,7 @@
 			<a href="#"><img src="image/icons8-twitter.gif" alt="icon-twitter" width="50px" height="50px"></a>
             <a href="#"><img src="image/icons8-linkedin-2.gif" alt="icon-LinkedIn" width="50px" height="50px"></a>
             <a href="#"><img src="image/icons8-instagram.gif" alt="Instagrame" width="50px" height="50px"></a>
+   			<a href="#"><img src="image/icons8-facebook-entouré.gif" alt="facebook-icon" width="50px" height="50px"></a>
 		</div>
 	</div>
 		<div class="accueil-bottom">

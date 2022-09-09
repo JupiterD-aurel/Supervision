@@ -103,7 +103,7 @@ section{
 
 .heading{
     text-align: center;
-    margin:0 0rem;
+    margin:2rem 0rem;
     font-size: 4rem;
     padding:1rem;
     border-bottom: .1rem solid #fff4;
@@ -155,15 +155,17 @@ button {
 }
 
 .contact .row form .message{
-    height: 11rem;
+    height: 10rem;
     resize: none;
 }
 
 .content{
 display: flex;
-margin-left: 8%;
+margin-left: 10%;
 }
-
+.content1{
+margin-top: -3%;
+}
 
 
 /* media queries  */

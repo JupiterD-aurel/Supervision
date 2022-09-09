@@ -291,6 +291,13 @@ background: white;
 margin: 15% 0% 0% 15%;
 }
 
+.rectangle3{
+width: 1168px;
+height: 747px;
+background: rgb(5, 202, 242);
+margin: 15% 0% 0% 15%;
+}
+
 .produit p{
 width: 600px;
 font-family: 'Montserrat';
