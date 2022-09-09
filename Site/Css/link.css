@@ -277,7 +277,7 @@ font-size: 70px;
 position: absolute;
 width: 682px;
 height: 550px;
-margin: -10% 0% 0% 50%;
+margin: -10% 0 0 37%;
 }
 .rectangle1 img{
 width: 85rem;
@@ -313,7 +313,45 @@ color: #000000;
 margin-top: 40%;
 
 }
+.tex{
+text-align: center;
 
+}
+.tex h3{
+margin: 2% 0;
+font-family: 'Montserrat';
+font-style: normal;
+font-size: 20px;
+align-items: center;
+text-align: center;
+right: 10%;
+color: #000000;
+}
+
+.forfait{
+display: flex;
+margin-left: 25%;
+margin-bottom: 1%;
+text-align: center;
+}
+
+.forfait p{
+font-size: 10px;
+}
+
+.forfait #euro h5{
+font-size: 25px;
+}
+
+.forfait #euro p{
+font-size: 15px;
+}
+
+#euro{
+width: 25%;
+height: 25%;
+margin-left: 5%;
+}
 .text1{
 display: flex;
 }
@@ -385,9 +423,33 @@ color: #000000;
 .abonnement p{
 font-family: 'Montserrat';
 font-style: normal;
-font-size: 30px;
+font-size: 15px;
 color: #000000;
 }
+.abonnement #lignepetite{
+font-size: 11px;
+}.abonnement #lignepetite1{
+font-size: 11px;
+}
+.abonnement #lignepetite2{
+font-size: 11px;
+}
+.abonnement #lignepetite3{
+font-size: 11px;
+}
+.abonnement #lignepetite4{
+font-size: 11px;
+}
+.abonnement #lignepetite5{
+font-size: 11px;
+}
+.abonnement #lignepetite6{
+font-size: 11px;
+}
+.abonnement #lignepetite7{
+font-size: 11px;
+}
+
 
 .stampede{
 font-family: 'Montserrat';
