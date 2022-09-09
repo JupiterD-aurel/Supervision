@@ -13,7 +13,10 @@
 <?php 
 $error = "";
 $mess = "";
-session_start();
+$status = session_status();
+if($status == PHP_SESSION_NONE){
+    session_start();
+}
 
 if(isset($_POST["submit"]))
 {

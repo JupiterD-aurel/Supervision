@@ -17,7 +17,7 @@ if($status == PHP_SESSION_NONE){
 <?php
 if(isset($_SESSION['username']))
 {
-    $d = 1;
+    $username = $_SESSION['username'];
 }
 else{
     header("Location: login.php"); 
@@ -26,6 +26,7 @@ else{
 
 <?php include('header.php')?>
 
+<h1 id="hellotitle">Bonjour <?php echo $username?>, bienvenue dans l'Espace Client</h1>
 <div id=logoutbutton>
     <a href="logout.php" id="logout">Se déconnecter</a>
 </div>

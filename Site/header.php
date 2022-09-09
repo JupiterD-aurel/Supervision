@@ -7,6 +7,7 @@ if($status == PHP_SESSION_NONE){
 ?>
 <link rel="stylesheet" href="css/header.css">
 <link rel="icon" href="image/favicon.png">
+<script src="https://kit.fontawesome.com/ab98ebb4c8.js" crossorigin="anonymous"></script>
 
 
 <nav>
@@ -20,7 +21,7 @@ if($status == PHP_SESSION_NONE){
             <?php
             if(isset($_SESSION['username']))
             {
-                echo "<a href='client.php' id='lgnbutton'><strong>ESPACE CLIENT</strong></a>";
+                echo "<a href='client.php' id='lgnbutton'><i class='fa-solid fa-user'></i> <strong>ESPACE CLIENT</strong></a>";
             }
             else
             {
