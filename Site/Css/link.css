@@ -489,18 +489,30 @@ border: 1px solid #000000;
 
 .histoire{
 display: flex;
-margin: 5% 0 0 20%;
+margin: 5% 0 0 15%;
 }
 
 .histoire p{
-width: 588px;
-height: 274px;
 font-family: 'Montserrat';
 font-style: normal;
 font-size: 20px;
-line-height: 29px;
 color: #000000;
+margin-top: 2%;
+}
 
+.histoire h2{
+margin: 5% 0 5% 0;
+font-family: 'Montserrat';
+font-style: normal;
+font-size: 40px;
+color: #000000;
+}
+.histoire h4{
+font-family: 'Montserrat';
+font-style: normal;
+font-size: 15px;
+color: #000000;
+margin-top: 2%;
 }
 
 .part2{

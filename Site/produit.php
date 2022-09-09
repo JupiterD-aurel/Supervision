@@ -16,7 +16,7 @@
 	<div class="rectangle1"><img src="image/electric-car-power-charging.jpg" alt="charging"></div>
 	<div class="rectangle2">
 	<div class="text1">
-		<h1>Produit.</h1>
+		<h1>Service.</h1>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a laoreet est. Fusce eleifend mattis urna. Suspendisse potenti. Sed vestibulum ligula vel metus semper, nec euismod sem aliquam. Maecenas bibendum odio leo, nec mattis ipsum accumsan sit amet. Suspendisse metus ipsum, egestas at varius</p>
 	</div>
 
