@@ -21,8 +21,8 @@
 	</div>
 
 			<div class="text-box">
-				<a href="#" class="btn btn-white btn-animate">En savoir plus</a>
-				<a href="#" class="btn btn-white btn-animate">NOUS CONTACTER</a>
+				<a href="abonnement" class="btn btn-white btn-animate">En savoir plus</a>
+				<a href="contact.php" class="btn btn-white btn-animate">NOUS CONTACTER</a>
 			</div>
 
 </div>

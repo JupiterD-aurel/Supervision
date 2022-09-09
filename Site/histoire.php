@@ -14,8 +14,18 @@
 <div class="histoire">
 	<div class="part1">
 		<h1>Histoire.</h1>
-		<h2>Hi, ik ben Jasper</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a laoreet est. Fusce eleifend mattis urna. Suspendisse potenti. Sed vestibulum ligula vel metus semper, nec euismod sem aliquam. Maecenas bibendum odio leo, nec mattis ipsum accumsan sit amet. Suspendisse metus ipsum, egestas at varius</p>
+		<h2>À propos de nous</h2>
+		<p>
+
+La mobilité est nécessaire au quotidien, mais celle-ci a un coût. C'est pourquoi il est important de diminuer l'impact environnemental des transports grâce à une mobilité propre. Nous en sommes convaincus et c'est pour cela que nous tendons à rendre la recharge de véhicule accessible au plus grand nombre, pour que la transition énergétique se fasse à grande échelle. 
+
+
+Présent depuis 2018, nous cherchons à vous fournir un logiciel de supervision adapté à vos besoins. Plus de 30 sociétés sont déjà à nos côtés. Dans les années à venir, nous aimerions promouvoir notre service à l’international.
+
+Ensemble, préservons la planète.
+
+L’équipe de Station SuperVisor
+</p>
 	</div>
 
 	<div class="part2">
