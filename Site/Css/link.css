@@ -47,6 +47,7 @@ text-decoration: none;
     color: white;
     padding: 15px 32px;
     text-align: center;
+    font-weight: 800;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
@@ -448,7 +449,7 @@ border-radius: 80px;
 box-sizing: border-box;
 width: 339px;
 height: 571px;
-background: rgb(42, 190, 198);
+background: #5BC5F2;
 border: 1px solid #000000;
 border-radius: 80px;
 }

@@ -12,7 +12,7 @@
 
 <body>
 
-	<div id="accueil">
+	<div id="accueil"> <a name="home"></a>
 
 		<div class="accueil-text">
 
@@ -49,7 +49,7 @@
 <div id="intern">
 
 <div class="produit">
-	<div class="rectangle1"><img src="image/charging-pistol-in-socket-at-charging-station.jpg" alt="charging"></div>
+	<div class="rectangle1"><img src="image/im 1.jpg" alt="charging"></div>
 	<div class="rectangle2">
 	<div class="text1">
 		<h1>Service.</h1>
@@ -57,8 +57,8 @@
 	</div>
 
 			<div class="text-box">
-				<a href="#" class="btn btn-white btn-animate">En savoir plus</a>
-				<a href="#" class="btn btn-white btn-animate">NOUS CONTACTER</a>
+				<a href="produit.php" class="btn btn-white btn-animate">En savoir plus</a>
+				<a href="contact.php" class="btn btn-white btn-animate">NOUS CONTACTER</a>
 			</div>
 
 </div>
