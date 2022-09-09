@@ -257,10 +257,9 @@ white-space: nowrap;
 #intern{
 position: absolute;
 width: 110%;
-height: 210rem;
+height: 250rem;
 left: -31px;
 top: 872px;
-
 background: linear-gradient(180deg, rgba(44, 96, 171, 0.488) 0%, rgba(91, 197, 242, 0.8) 100%);
 }
 
@@ -318,10 +317,117 @@ margin-top: 40%;
 
 /*Abonnement*/
 
+
+
 .abonnement{
 text-align: center;
 margin-top: 5%;
 }
+.abonnement h1{
+left: 20%;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 60px;
+line-height: 73px;
+align-items: center;
+text-align: center;
+color: #000000;
+margin-bottom: 5%;
+
+}
+.abonnement h3{
+margin: 10%;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+color: #000000;
+}
+
+.abonnement h4{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+color: #000000;
+}
+
+.abonnement h5{
+margin: 2%;
+font-family: 'Montserrat';
+font-style: normal;
+font-size: 40px;
+color: #000000;
+}
+
+.abonnement h2{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+color: #000000;
+}
+
+.abonnement p{
+font-family: 'Montserrat';
+font-style: normal;
+font-size: 30px;
+color: #000000;
+}
+
+.stampede{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+color: #FFFFFF;
+margin: 15% 45% 0 0;
+white-space: nowrap;
+
+}
+
+.lgnbutton {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 20%;
+    border-radius: 50px;
+}
+
+.lgnbutton:hover{
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+    border-radius: 50px;
+    transform: scale(1.03);
+}
+.lgnbutton1 {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 20%;
+    border-radius: 50px;
+}
+
+.lgnbutton1:hover{
+    background-color: black;
+    color: white;
+    border: 3px solid white;
+    border-radius: 50px;
+    transform: scale(1.03);
+}
+
 
 .formules{
 display: flex;
@@ -342,20 +448,30 @@ border-radius: 80px;
 box-sizing: border-box;
 width: 339px;
 height: 571px;
-background: #FFFFFF;
+background: rgb(42, 190, 198);
 border: 1px solid #000000;
 border-radius: 80px;
 }
 
 .valeurs{
-width: 1436px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 49px;
+align-items: center;
+text-align: center;
+color: #000000;
+margin-top: 3%;
+
+/*width: 1436px;
 height: 231px;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 900;
 font-size: 30px;
 color: #000000;
-text-align: center;
+text-align: center;*/
 }
 
 

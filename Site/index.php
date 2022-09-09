@@ -72,25 +72,26 @@
 	<div class="formules">
 
 		<div class="standard">
-			<h1>Standard</h1>
-				<h1>2€*</h1>
+			<h3>Standard</h3>
+				<h4>2€/mois HT</h4>
 		<div>
 				<p>✔️ Lorem Ipsum</p>
 				<p>✔️ Lorem Ipsum</p>
 				<p>✔️ Lorem Ipsum</p>
 				<p>✔️ Lorem Ipsum</p>
-				<p>✔️ Lorem Ipsum</p>
-				<p>✔️ Lorem Ipsum</p>
+				<p>❌ Lorem Ipsum</p>
+				<p>❌ Lorem Ipsum</p>
 		</div>
-		<div class="text-box">
-			<a href="#" class="btn btn-white btn-animate">S'abonner</a>
+
+		<div class="stampede">
+			<a href="#" class="lgnbutton">EN APPRENDRE D’AVANTAGE</a>
 		</div>
 	</div>
 
 		<div class="premium">
 
-			<h1>Premium</h1>
-				<h1>6€*</h1>
+			<h3>Premium</h3>
+				<h4>6€/mois HT</h4>
 
 			<div>
 				<p>✔️ Lorem Ipsum</p>
@@ -100,19 +101,20 @@
 				<p>✔️ Lorem Ipsum</p>
 				<p>✔️ Lorem Ipsum</p>
 			</div>
-		<div class="text-box">
-			<a href="#" class="btn btn-white btn-animate">S'abonner</a>
+
+		<div class="stampede">
+			<a href="#" class="lgnbutton1">EN APPRENDRE D’AVANTAGE</a>
 		</div>
 </div>
 	</div>
 
 	<div class="valeurs">
 		<h2>90 000</h2> 
-			<h3> points de recharge financés sur un objectif de 125 000 d’ici 2025</h3>
+			<h5> points de recharge financés sur un objectif de 125 000 d’ici 2025</h5>
 		<h2>320</h2> 
-			<h3>millions d’euros de budget </h3>
+			<h5>millions d’euros de budget</h5>
 		<h2>2025</h2> 
-			<h3>fin du programme</h3>
+			<h5>fin du programme</h5>
 	</div>
 
 </div>
