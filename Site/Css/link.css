@@ -504,9 +504,11 @@ color: #000000;
 }
 
 .part2{
-width: 364px;
-height: 416px;
-background: #1D1D1B;
 margin-left: 5%;
-
 }
+
+.part2 img{
+width: 55rem;
+height: 50rem;
+}
+

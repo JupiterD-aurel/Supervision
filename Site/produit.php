@@ -13,7 +13,7 @@
 <body>	
 
 <div class="produit">
-	<div class="rectangle1"><img src="image/charging-pistol-in-socket-at-charging-station.jpg" alt="charging"></div>
+	<div class="rectangle1"><img src="image/electric-car-power-charging.jpg" alt="charging"></div>
 	<div class="rectangle2">
 	<div class="text1">
 		<h1>Produit.</h1>
@@ -72,14 +72,6 @@
 </div>
 	</div>
 
-	<div class="valeurs">
-		<h2>90 000</h2> 
-			<h5> points de recharge financés sur un objectif de 125 000 d’ici 2025</h5>
-		<h2>320</h2> 
-			<h5>millions d’euros de budget</h5>
-		<h2>2025</h2> 
-			<h5>fin du programme</h5>
-	</div>
 
 </div>
 
